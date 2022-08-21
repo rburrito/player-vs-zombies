@@ -68,8 +68,6 @@ jobs:
     - name: Build executable
       run: |
         g++ main.cpp
-        make bootstrap
-        make release
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
