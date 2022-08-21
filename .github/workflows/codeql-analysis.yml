@@ -61,13 +61,7 @@ jobs:
     # ✏️ If the Autobuild fails above, remove it and uncomment the following three lines
     #    and modify them (or add more) to build your code if your project
     #    uses a compiled language
-    - name: Update repository metadata
-      run: |
-        sudo apt-get install build-essential
-    
-    - name: Build executable
     - run: |
-        gcc main.cpp game-functions.cpp
         make bootstrap
         make release
 
