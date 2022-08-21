@@ -67,7 +67,7 @@ jobs:
     
     - name: Build executable
       run: |
-        gcc main.cpp game-functions.cpp
+        gcc main.cpp
         make bootstrap
         make release
 
