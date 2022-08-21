@@ -67,7 +67,7 @@ jobs:
     
     - name: Build executable
       run: |
-        gcc main.cpp
+        g++ main.cpp
         make bootstrap
         make release
 
