@@ -62,11 +62,11 @@ jobs:
     #    and modify them (or add more) to build your code if your project
     #    uses a compiled language
     - name: Install compiler
-    - run: | 
+      run: | 
         sudo apt-get install build-essential
     
     - name: Build executable
-    - run: |
+      run: |
         gcc main.cpp game-functions.cpp
         make bootstrap
         make release
