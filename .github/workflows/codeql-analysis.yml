@@ -68,8 +68,8 @@ jobs:
     - name: Build executable
       run: |
         gcc main.cpp game-functions.cpp
-        make bootstrap
-        make release
+      #  make bootstrap
+      #  make release
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
