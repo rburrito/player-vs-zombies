@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "game-classes.h"
+#include "classes.h"
 
 int main(){
 
