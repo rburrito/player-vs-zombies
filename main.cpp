@@ -3,7 +3,8 @@ using namespace std;
 #include "classes.h"
 
 int main(){
-
+  
+  // Mapping gameboard
   Map gameboard;
 
   // sets map to nullptrs
